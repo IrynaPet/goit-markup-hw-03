@@ -1,0 +1,213 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-color: #757575;
+    --white-color: #fff;
+    --accent-color: #2196f3;
+    --beige-color: #f5f4fa;
+    --dark-color: #2f303a;
+}
+/* Стилистика шапки */
+.contacts-link:focus,
+.nav-links-link:focus,
+.contacts-link:hover,
+.nav-links-link:hover {
+    color: var(--accent-color);
+}
+
+/* Стилистика лого */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-right: 93px;
+}
+
+.logo-studio {
+    color: var(--white-color);
+}
+.logo-studio-title {
+    color: var(--primary-text-color);
+}
+
+/* Стилистика общего наполнения */
+body {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+address{
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+.section {
+    padding: 94px 0;
+
+}
+
+/* Стилистика героя */
+.section-title {
+    background: var(--dark-color);
+}
+.section-title h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+/* Стилистика кнопки */
+
+.butoon-main:hover,
+.butoon-main:focus {
+    background-color: #188ce8;
+}
+.butoon-main {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    padding: 0 15px;
+}
+.conteiner-heading{
+    display: flex;
+    align-items: center;
+   
+}
+
+.conteiner-heading-item{
+    margin-right: 30px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+h2 {
+    color: var(--primary-text-color);
+    font-size: 18px;
+}
+p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.section-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.conteiner-footer {
+    background: #2f303a;
+}
+.address-footer {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.contacts-footer {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.page-nav,
+.contacts,
+.nav-links,
+.header-conteiner {
+    display: flex;
+}
+.header {/*
+     padding-top: 24px;
+  padding-bottom: 24px;*/
+}
+.page-nav {
+    align-items: center;}
+
+.header-conteiner {
+    justify-content: space-between;
+}
+
+
+.nav-links-item + .nav-links-item {
+    margin-left: 50px;
+}
+.contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+.contacts-link,
+.nav-links-link {
+    padding: 31px 0;
+    display: block;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.contacts-link {
+    color: var(--secondary-color);
+}
+/* Стилистика кнопок портфолио */
+.button-portfolio {
+    padding: 6px 22px;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+.section-btn{
+    display: flex;
+  align-items: center;
+  justify-content:center;
+  
+}
+.section-btn-item:not(:last-child) {
+    margin-right: 8px;
+}
+.section-img{
+    display: flex;
+    
+  justify-content:space-between;
+  flex-wrap: wrap
+}
+
