@@ -7,11 +7,15 @@
     --dark-color: #2f303a;
 }
 /* Стилистика шапки */
-.contacts-link:focus,
+.contacts-link .icon:focus,
 .nav-links-link:focus,
-.contacts-link:hover,
+.contacts-link .icon:hover,
 .nav-links-link:hover {
     color: var(--accent-color);
+}
+
+.icon{
+margin-right: 10px;
 }
 
 /* Стилистика лого */
@@ -88,12 +92,20 @@ address{
 }
 .conteiner-heading{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.conteiner-heading-item{
+.conteiner-heading-item:not(:nth-child(4n)){
     margin-right: 30px;
 }
+.conteiner-info{
+    display: flex;
+    flex-basis: calc((100% - 4 * 30px) / 4);
+}
+/*
+.conteiner-heading-item:not(:nth-child(-n+4)){
+    margin-bottom: 30px;
+}*/
 .subtitle {
     font-weight: 500;
     font-size: 14px;
@@ -112,6 +124,9 @@ p {
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--secondary-color);
+}
+.comand{
+    background-color: #F5F4FA;
 }
 .section-text {
     font-weight: 700;
@@ -211,6 +226,23 @@ ul {
     padding-bottom: 94px;
     display: flex;
   justify-content:space-between;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  
 }
-/*не могу разобраться с размерами футера и героя*.
+.conteiner-img {
+border: 1px solid #EEEEEE;
+
+}
+/*не могу разобраться с размерами футера и героя*/
+.icon{
+margin-right: 10px;
+}
+.header-box{
+    border: 1px solid #ECECEC;
+    border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.img-title {
+    padding: 20px 24px;
+}
