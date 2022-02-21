@@ -50,13 +50,20 @@ address{
     font-family: font-family: 'Roboto', sans-serif;;
 }
 .section {
-    padding: 94px 0 0 0;
+    padding: 94px 0;
+    margin-bottom: 30px;
+}
+.subtitle-point{
+    padding: 94px 0;
+}
+.section-desc{
+    padding-bottom: 0;
 }
 
 /* Стилистика героя */
 .section-title {
     background: var(--dark-color);
-    padding: 200px 452px 280px;
+    padding: 200px 0;
 }
 .section-title h1 {
     font-weight: 900;
@@ -82,6 +89,9 @@ address{
     border-radius: 4px;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin: 0 auto;
+display: block;
+line-height: 50px;
 }
 
 .conteiner {
@@ -94,9 +104,23 @@ address{
     display: flex;
     justify-content: space-between;
 }
-
+.footer{
+    padding: 60px 0;
+    background-color: var(--dark-color);
+}
 .conteiner-heading-item:not(:nth-child(4n)){
     margin-right: 30px;
+   
+}
+.conteiner-info{
+    display: flex;
+    flex-basis: calc((100% - 4 * 30px) / 4);
+}
+.conteiner-heading-item-img{
+    margin-right: 30px;
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .conteiner-info{
     display: flex;
@@ -137,10 +161,7 @@ p {
     color: var(--primary-text-color);
     margin-bottom: 50px;
 }
-.conteiner-footer {
-    background: #2f303a;
 
-}
 .address-footer {
     margin-top: 20px;
     font-style: normal;
@@ -199,6 +220,7 @@ p {
     cursor: pointer;
     font-family: inherit;
     border-radius: 4px;
+    font-size: 16px;
 }
 
 .button-portfolio:hover,
@@ -231,7 +253,7 @@ ul {
 }
 .conteiner-img {
 border: 1px solid #EEEEEE;
-
+margin-bottom: 30px;
 }
 /*не могу разобраться с размерами футера и героя*/
 .icon{
@@ -242,6 +264,7 @@ margin-right: 10px;
     border-top: none;
   border-left: none;
   border-right: none;
+  border-bottom: ;
 }
 .img-title {
     padding: 20px 24px;
