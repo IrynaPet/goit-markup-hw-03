@@ -51,7 +51,7 @@ address{
 }
 .section {
     padding: 94px 0;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 .subtitle-point{
     padding: 94px 0;
@@ -171,6 +171,9 @@ p {
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
+.address{
+    margin-bottom: 9px;
+}
 .contacts-footer {
     font-style: normal;
     font-weight: 400;
@@ -264,7 +267,8 @@ margin-right: 10px;
     border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: ;
+ 
+  
 }
 .img-title {
     padding: 20px 24px;
